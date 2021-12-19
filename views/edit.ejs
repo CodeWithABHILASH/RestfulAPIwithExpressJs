@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/<%=e.name%>?_method=PUT" method="POST">
+        <label for="1">Enter name</label>
+        <input type="text" id="1" name="name"  value="<%=e.name %>">
+        <label for="2">Enter dob</label>
+        <input type="text" id="2" name="DateOfBirth" value="<%=e.DateOfBirth%>" >
+        <label for="3">Enter doj</label>
+        <input type="text" id="3" name="DateOfJoining" value="<%=e.DateOfJoining %>" >
+        <label for="4">Enter phone</label>
+        <input type="text" id="4" name="phone" value="<%=e.phone%>" >
+        <label for="5">Enter email</label>
+        <input type="text" id="5" name="email" value="<%= e.email%>">
+        <label for="6">Enter address</label>
+        <input type="text" id="6" name="address" value="<%=e.address %>">
+        <label for="7">Enter gender</label>
+        <input type="text" id="7" name="gender" value="<%=e.gender%>">
+        <label for="8">Enter image</label>
+        <input type="text" id="8" name="image" value="<%=e.image%>" >
+        <label for="9">Enter department</label>
+        <input type="text" id="9" name="department" value="<%=e.department%>">
+
+        <button>SUBMIT</button>
+    </form>
+    
+</body>
+</html>
