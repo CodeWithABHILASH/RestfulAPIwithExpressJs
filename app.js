@@ -45,8 +45,7 @@ mongoose.connect("mongodb+srv://ABHILASH_A:Mongo123456@cluster0.askpc.mongodb.ne
             email: "massa@hotmail.org",
             address: "P.O. Box 410, 4527 Ac Av.",
             gender:"male",
-            image:"https://images.unsplash.com/photo-1509112552557-8eb3dab85cfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60
-",
+            image:"https://images.unsplash.com/photo-1509112552557-8eb3dab85cfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         },
         {
             name: "Ferris Hester",
@@ -57,8 +56,7 @@ mongoose.connect("mongodb+srv://ABHILASH_A:Mongo123456@cluster0.askpc.mongodb.ne
             email: "lacinia@yahoo.com",
             address: "993-1975 Dapibus St.",
             gender:"male",
-            image:"https://images.unsplash.com/photo-1474176857210-7287d38d27c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60
-",
+            image:"https://images.unsplash.com/photo-1474176857210-7287d38d27c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         },
         {
             name: "Audra Ward",
