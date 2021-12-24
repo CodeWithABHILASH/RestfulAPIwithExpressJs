@@ -24,7 +24,7 @@ mongoose.connect("mongodb+srv://ABHILASH_A:Mongo123456@cluster0.askpc.mongodb.ne
     app.use(cors());
     app.use(helmet());
 
-    app.get("/employees", (req, res) => {
+    app.get("/employees", async(req, res) => {
           const Employees= await Employee.find({});
         res.send(Employees);
    
